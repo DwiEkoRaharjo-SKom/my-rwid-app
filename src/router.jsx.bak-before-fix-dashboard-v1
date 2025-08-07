@@ -1,0 +1,145 @@
+import React from "react";
+
+import AksesMateri from "./pages/AksesMateri";
+import { createBrowserRouter } from "react-router-dom";
+
+import AksesMateri from "./pages/AksesMateri";
+import AppLayout from "./layouts/AppLayout";
+
+import AksesMateri from "./pages/AksesMateri";
+import WhatsAppSupport from "./pages/WhatsAppSupport";
+
+import AksesMateri from "./pages/AksesMateri";
+import Login from "./pages/Login";
+
+import AksesMateri from "./pages/AksesMateri";
+import Dashboard from "./pages/Dashboard";
+
+import AksesMateri from "./pages/AksesMateri";
+import NotFound from "./pages/NotFound";
+
+import AksesMateri from "./pages/AksesMateri";
+import Counter from "./pages/Counter";
+
+import AksesMateri from "./pages/AksesMateri";
+import ProtectedRoute from "./components/ProtectedRoute";
+
+import AksesMateri from "./pages/AksesMateri";
+import Homepage from "./pages/Homepage";
+
+import AksesMateri from "./pages/AksesMateri";
+import Bootcamp from "./pages/Bootcamp";
+
+import AksesMateri from "./pages/AksesMateri";
+import Job from "./pages/Job";
+
+import AksesMateri from "./pages/AksesMateri";
+import SoftwareAgency from "./pages/SoftwareAgency";
+
+import AksesMateri from "./pages/AksesMateri";
+import Talk from "./pages/Talk";
+
+import AksesMateri from "./pages/AksesMateri";
+import Contact from "./pages/Contact";
+
+import AksesMateri from "./pages/AksesMateri";
+import Mailto from "./pages/Mailto";
+
+import AksesMateri from "./pages/AksesMateri";
+import Location from "./pages/Location";
+
+import AksesMateri from "./pages/AksesMateri";
+import Whatsapp from "./pages/Whatsapp";
+
+import AksesMateri from "./pages/AksesMateri";
+import MateriBelajarRemoteWork from "./pages/MateriBelajarRemoteWork";
+
+import AksesMateri from "./pages/AksesMateri";
+import EntryToRwid from "./pages/entry-to-rwid";
+
+import AksesMateri from "./pages/AksesMateri";
+import HundredMillionProjects from "./pages/100millionprojects";
+
+import AksesMateri from "./pages/AksesMateri";
+import PersiapanMengikuti from "./pages/persiapan-mengikuti";
+
+import AksesMateri from "./pages/AksesMateri";
+import PengScrum from "./pages/peng-scrum";
+
+import AksesMateri from "./pages/AksesMateri";
+import FourHundredJam from "./pages/400-jam";
+
+import AksesMateri from "./pages/AksesMateri";
+import Onboarding from "./pages/onboarding";
+
+import AksesMateri from "./pages/AksesMateri";
+import LangkahCetar from "./pages/langkah-cetar";
+
+import AksesMateri from "./pages/AksesMateri";
+import Onboarding2 from "./pages/onboarding2";
+
+import AksesMateri from "./pages/AksesMateri";
+import KonsultasiHunting from "./pages/konsultasi-hunting";
+
+import AksesMateri from "./pages/AksesMateri";
+import KonsultasiPsikologi from "./pages/konsultasi-psikologi";
+
+import AksesMateri from "./pages/AksesMateri";
+import Zoom190824 from "./pages/zoom-190824";
+
+import AksesMateri from "./pages/AksesMateri";
+import CourseIt from "./pages/course-it";
+
+import AksesMateri from "./pages/AksesMateri";
+import CourseDesign from "./pages/course-design";
+
+import AksesMateri from "./pages/AksesMateri";
+import CourseVa from "./pages/course-va";
+
+import AksesMateri from "./pages/AksesMateri";
+import Community from "./pages/community";
+
+import AksesMateri from "./pages/AksesMateri";
+// (Import halaman baru lain jika ada)
+
+const router = createBrowserRouter([
+  {
+    element: <AppLayout />,
+    errorElement: <NotFound />,
+    children: [
+      { path: "/whats-app-support", element: <WhatsAppSupport /> },
+      { path: "/", element: <ProtectedRoute><Dashboard /></ProtectedRoute> },
+      { path: "/counter", element: <ProtectedRoute><Counter /></ProtectedRoute> },
+      { path: "/login", element: <Login /> },
+      { path: "/homepage", element: <Homepage /> },
+      { path: "/bootcamp", element: <Bootcamp /> },
+      { path: "/job", element: <Job /> },
+      { path: "/software-agency", element: <SoftwareAgency /> },
+      { path: "/talk", element: <Talk /> },
+      { path: "/contact", element: <Contact /> },
+      { path: "/mailto", element: <Mailto /> },
+      { path: "/location", element: <Location /> },
+      { path: "/whatsapp", element: <Whatsapp /> },
+      { path: "/materi-belajar-remote-work", element: <MateriBelajarRemoteWork /> },
+      { path: "/entry-to-rwid", element: <EntryToRwid /> },
+      { path: "/100millionprojects", element: <HundredMillionProjects /> },
+      { path: "/persiapan-mengikuti", element: <PersiapanMengikuti /> },
+      { path: "/peng-scrum", element: <PengScrum /> },
+      { path: "/400-jam", element: <FourHundredJam /> },
+      { path: "/onboarding", element: <Onboarding /> },
+      { path: "/langkah-cetar", element: <LangkahCetar /> },
+      { path: "/onboarding2", element: <Onboarding2 /> },
+      { path: "/konsultasi-hunting", element: <KonsultasiHunting /> },
+      { path: "/konsultasi-psikologi", element: <KonsultasiPsikologi /> },
+      { path: "/zoom-190824", element: <Zoom190824 /> },
+      { path: "/course-it", element: <CourseIt /> },
+      { path: "/course-design", element: <CourseDesign /> },
+      { path: "/course-va", element: <CourseVa /> },
+      { path: "/community", element: <Community /> },
+      // (Tambah route baru di sini jika butuh)
+    ],
+  },
+  { path: "*", element: <NotFound /> },
+]);
+
+export default router;

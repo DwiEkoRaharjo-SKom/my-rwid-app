@@ -1,0 +1,18 @@
+.materi-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.materi-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.materi-container ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.materi-container ul li {
+  margin-bottom: 0.5rem;
+}
