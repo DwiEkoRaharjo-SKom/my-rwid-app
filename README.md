@@ -29,4 +29,4 @@
 
 ---
 
-By: AI Generator, request by Bagus (RWID Project)
+By: Dwi Eko Raharjo (RWID Project)
