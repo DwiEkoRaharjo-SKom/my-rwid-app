@@ -1,4 +1,4 @@
-# RWID App – No Tailwind
+# RWID App
 
 **Project ReactJS profesional tanpa Tailwind CSS!**
 - Menggunakan CSS/SCSS modern (mirip Google/MUI)
