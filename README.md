@@ -1,6 +1,6 @@
 # RWID App
 
-**Project ReactJS profesional tanpa Tailwind CSS!**
+**Project ReactJS profesional**
 - Menggunakan CSS/SCSS modern (mirip Google/MUI)
 - Support dark mode, responsif, UX clean
 - Routing, login protected, context
