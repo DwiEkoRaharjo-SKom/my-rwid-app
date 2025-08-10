@@ -29,4 +29,8 @@
 
 ---
 
-By: Dwi Eko Raharjo (RWID Project)
+License
+
+This project is open-source and available under the MIT License.
+
+Created and Developed by : Dwi Eko Raharjo (RWID Project) 
